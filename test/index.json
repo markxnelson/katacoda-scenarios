@@ -4,6 +4,14 @@
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
+    "assets": {
+      "client": [
+        {
+          "file": "domain.yaml",
+          "target": "~/"
+        }
+      ]
+    },
     "steps": [
       {
         "title": "Step 1",
