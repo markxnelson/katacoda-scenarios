@@ -5,7 +5,7 @@
   "time": "60 minutes",
   "details": {
     "assets": {
-      "client": [
+      "master": [
         {
           "file": "domain.yaml",
           "target": "~/"
