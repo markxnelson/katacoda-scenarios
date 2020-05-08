@@ -3,6 +3,7 @@
   "description": "Install the WebLogic Kubernetes Operator and create a domain",
   "difficulty": "Beginner",
   "time": "15 minutes",
+  "courseData": "launch.sh",
   "details": {
     "assets": {
       "master": [
@@ -49,6 +50,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "kubernetes-cluster-running"
+    "imageid": "kubernetes-cluster-running:1.14"
   }
 }
