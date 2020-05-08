@@ -4,18 +4,6 @@
   "difficulty": "Beginner",
   "time": "15 minutes",
   "details": {
-    "assets": {
-      "master": [
-        {
-          "file": "domain.yaml",
-          "target": "~/"
-        },
-        {
-          "file": "tiller-cluster-admin.yaml",
-          "target": "~/"
-        }
-      ]
-    },
     "steps": [
       {
         "title": "Clone the WebLogic Kubernetes Operator project",
