@@ -1,36 +1,40 @@
 {
-  "title": "test",
-  "description": "test",
+  "title": "WebLogic on Kubernetes",
+  "description": "Install the WebLogic Kubernetes Operator and create a domain",
   "difficulty": "Beginner",
-  "time": "60 minutes",
+  "time": "15 minutes",
   "details": {
     "assets": {
       "master": [
         {
           "file": "domain.yaml",
           "target": "~/"
+        },
+        {
+          "file": "tiller-cluster-admin.yaml",
+          "target": "~/"
         }
       ]
     },
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Clone the WebLogic Kubernetes Operator project",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Install the operator",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Create a secret with the domain credentials",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Create the domain custom resource",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Wait for the domain to start",
         "text": "step5.md"
       }
     ],

@@ -1,5 +1,5 @@
-# step 1
 
-do something
+Clone the WebLogic Kubernetes Operator project from GitHub
+to obtain the Helm charts and samples.
 
-`ls`{{execute}}
+`git clone https://github.com/oracle/weblogic-kubernetes-operator`{{execute}}
